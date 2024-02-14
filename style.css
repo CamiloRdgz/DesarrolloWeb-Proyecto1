@@ -6,6 +6,21 @@
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 60px;
+    font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
 
 /* NAV BAR */
 
@@ -40,7 +55,7 @@ nav > ul > li {
 
 .teal-b {
     background-color: #007B80;
-    border: 1px solid #007B80;
+    border: 2px solid #007B80;
     border-radius: 10px;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -52,7 +67,7 @@ nav > ul > li {
 
 .transp-b {
     white-space: nowrap;
-    border: 1px solid white;
+    border: 2px solid white;
     background-color: #1B273D;
     border-radius: 10px;
     color: white;
@@ -116,11 +131,11 @@ nav > ul > li {
 
 .landing-text > p {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .landing-text > button {
-    margin: 5% 0% 10% 0%;
+    margin-top: 5%;
 }
 
 /* .landing-image {
@@ -142,6 +157,7 @@ nav > ul > li {
 
 .services {
     background-color: white;
+    border-radius: 5%;
 }
 
 .services > article {
@@ -163,15 +179,40 @@ nav > ul > li {
     list-style-type: none;
 }
 
+.services > article > p,h2 {
+    text-align: center;
+}
+
+.card-container > .card-active {
+    background-color: #007B80;
+    color: white;
+}
+
 .card-container {
     display: inline-flex;
 }
 
 .card {
-    width: 20%;
-    height: 300px;
-    border: 2px solid black;
+    width: 25%;
+    height: 275px;
+    border-radius: 5%;
+    padding: 30px;
+    text-align: center;
 }
+
+.card > h3,p {
+    margin: auto;
+}
+
+.services-stats {
+    display: inline-flex;
+}
+
+.services-stats > article,aside{
+    width: 50%;
+}
+
+
 
 
 /* COURSES */
@@ -234,12 +275,31 @@ nav > ul > li {
 footer {
     background-color: #1B273D;
     color: white;
+    list-style-type: none;
+    font-size: 15px;
 }
 
 footer > article {
     width: 80%;
     margin: 0% 10% 0% 10%;
 }
+
+#layer-1 {
+    display: inline-flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.layer-2 {
+    list-style-type: none;
+}
+
+#layer-3 {
+    display: inline-flex;
+    list-style-type: none;
+}
+
 
 
 
