@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@800&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>QLearn | Home</title>
 </head>
 <body>
@@ -31,16 +34,18 @@
 
 
     <section class="landing">
-        <article class="landing-text">
-            <h1><b>Education is the Best <br> way to Grow up <br> Knowledge</b></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, eius!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <button class="teal-b"><b>Learn More</b></button>
-            <button class="transp-b"><b>Get Started</b></button>
+        <article>
+            <article class="landing-text">
+                <h1><b>Education is the Best <br> way to Grow up <br> Knowledge</b></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, eius!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <button class="teal-b"><b>Learn More</b></button>
+                <button class="transp-b"><b>Get Started</b></button>
+            </article>
+            <aside class="landing-image">
+                <img src="src/landing-books.jpg" alt="Books">
+            </aside>
         </article>
-        <aside class="landing-image">
-            <img src="src/landing-books.jpg" alt="Books">
-        </aside>
     </section>
 
 
@@ -57,8 +62,10 @@
                 <li><img src="src/amstrad.jpg" alt=""></li>
                 <li><img src="src/amstrad.jpg" alt=""></li>
             </ul>
-            <h2>Our Service</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae in non maxime eos numquam voluptatibus culpa!</p>
+            <h2 class="service-center">Our Service</h2>
+            <br><br>
+            <p class="service-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ea <br> cupiditate, earum doloremque ex suscipit!</p>
+            <br><br>
             <article class="card-container">
                 <article class="card">
                     <h3><b>Best Teacher</b></h3>
@@ -87,30 +94,31 @@
                 </article>
                 <aside id="services-stats-text">
                     <h2>We Provide Smart Online Education</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, ab molestiae nesciunt non pariatur, explicabo tempore, tempora veniam earum aliquid veritatis excepturi. Impedit hic reiciendis culpa tenetur debitis necessitatibus officia.</p>
+                    <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id cupiditate tempore commodi nisi accusantium nam at. Quas tempora quaerat illo id sint?</p>
                     <table>
                         <tr>
-                            <td>
-                                <b>30+</b>
+                            <td class="td1">
+                                <b><h3>30+</h3></b>
                                 <br>
-                                Years Experience
+                                <p>Years Experience</p>
                             </td>
                             <td>
-                                <b>100k+</b>
+                                <b><h3>100k+</h3></b>
                                 <br>
-                                Students
+                                <p>Students</p>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <b>70+</b>
+                                <b><h3>70+</h3></b>
                                 <br>
-                                Expert Teachers
+                                <p>Expert Teachers</p>
                             </td>
-                            <td>
-                                <b>80k+</b>
+                            <td class="td4">
+                                <b><h3>80k+</h3></b>
                                 <br>
-                                Happy Students
+                                <p>Happy Students</p>
                             </td>
                         </tr>
                     </table>
@@ -125,50 +133,62 @@
 
     <section class="courses">
         <article>
-            <h2>Popular Course</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, a!</p>
+            <br><br><br>
+            <article class="coursesTitle">
+                <h2>Popular Course</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A tenetur <br> modi, quos optio consequuntur incidunt dolorem.</p>        
+            </article>
+            <br><br><br>
+            <article class="card-container-courses">
+                <article class="course-card">
+                    <img src="/src/course-img.jpg" alt="">
+                    <article class="courseTitle">
+                        <h3>Website design and web development Course</h3>
+                    </article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus provident illo voluptate, pariatur sequi eligendi!</p>
+                    <article class="course-card-action">
+                        <img src="/src/profile-img.jpg" alt="">
+                        <ul>
+                            <li><h4>Gene Burton</h4></li>
+                            <li>Web Designer</li>
+                        </ul>
+                        <button class="teal-b">View Course</button>
+                    </article>
+                </article>
+                <article class="course-card">
+                    <img src="/src/course-img.jpg" alt="">
+                    <article class="courseTitle">
+                        <h3>Digital Marketing</h3>
+                    </article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus provident illo voluptate, pariatur sequi eligendi!</p>
+                    <article class="course-card-action">
+                        <img src="/src/profile-img.jpg" alt="">
+                        <ul>
+                            <li><h4>Gene Burton</h4></li>
+                            <li>Web Designer</li>
+                        </ul>
+                        <button class="teal-b">View Course</button>
+                    </article>
+                </article>
+                <article class="course-card">
+                    <img src="/src/course-img.jpg" alt="">
+                    <article class="courseTitle">
+                        <h3>Graphic Designer</h3>
+                    </article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus provident illo voluptate, pariatur sequi eligendi!</p>
+                    <article class="course-card-action">
+                        <img src="/src/profile-img.jpg" alt="">
+                        <ul>
+                            <li><h4>Gene Burton</h4></li>
+                            <li>Web Designer</li>
+                        </ul>
+                        <button class="teal-b">View Course</button>
+                    </article>
+                </article>
+            </article>
         </article>
-        <article class="card-container">
-            <article class="course-card">
-                <img src="/src/course-img.jpg" alt="">
-                <h3>Website design and web development Course</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex aspernatur velit beatae quas eligendi qui, aperiam accusamus possimus ipsa perspiciatis.</p>
-                <article class="course-card-action">
-                    <img src="/src/profile-img.jpg" alt="">
-                    <ul>
-                        <li>Gene Burton</li>
-                        <li>Web Designer</li>
-                    </ul>
-                    <button class="teal-b">View Course</button>
-                </article>
-            </article>
-            <article class="course-card">
-                <img src="/src/course-img.jpg" alt="">
-                <h3>Digital Marketing</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex aspernatur velit beatae quas eligendi qui, aperiam accusamus possimus ipsa perspiciatis.</p>
-                <article class="course-card-action">
-                    <img src="/src/profile-img.jpg" alt="">
-                    <ul>
-                        <li>Gene Burton</li>
-                        <li>Web Designer</li>
-                    </ul>
-                    <button class="teal-b">View Course</button>
-                </article>
-            </article>
-            <article class="course-card">
-                <img src="/src/course-img.jpg" alt="">
-                <h3>Graphic Designer</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex aspernatur velit beatae quas eligendi qui, aperiam accusamus possimus ipsa perspiciatis.</p>
-                <article class="course-card-action">
-                    <img src="/src/profile-img.jpg" alt="">
-                    <ul>
-                        <li>Gene Burton</li>
-                        <li>Web Designer</li>
-                    </ul>
-                    <button class="teal-b">View Course</button>
-                </article>
-            </article>
-        </article>
+        <br><br><br><br>
     </section>
 
 
@@ -177,12 +197,18 @@
 
     <section class="feedback">
         <article>
-            <h2>Our Student Feedback</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aperiam.</p>
-            <article class="card-container">
-                <article class="feedback-card">
+            <article class="feedbackTitle">
+                <h2>Our Student Feedback</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nemo, <br> alias perferendis cupiditate accusamus quas porro.</p>
+                <br><br><br>
+            </article>
+            <article class="card-container feedback-card-container">
+                <article class="feedback-card card-active">
                     <h3>Best Platform</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex numquam quaerat earum suscipit aspernatur, delectus dolorem recusandae odio eos eaque deserunt sapiente at facilis est iste. Error corrupti, nobis eum animi totam earum a ipsam tempora quos soluta eaque in sint, blanditiis ea provident voluptate reprehenderit eos eligendi sit rerum?</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odio soluta accusamus, quod ex optio quam, vel error quisquam consequuntur dolor in!</p>
+                    <br>
                     <article class="user-info">
                         <img src="src/profile-img.jpg" alt="">
                         <ul>
@@ -193,7 +219,9 @@
                 </article>
                 <article class="feedback-card">
                     <h3>Best Platform</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex numquam quaerat earum suscipit aspernatur, delectus dolorem recusandae odio eos eaque deserunt sapiente at facilis est iste. Error corrupti, nobis eum animi totam earum a ipsam tempora quos soluta eaque in sint, blanditiis ea provident voluptate reprehenderit eos eligendi sit rerum?</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odio soluta accusamus, quod ex optio quam, vel error quisquam consequuntur dolor in!</p>
+                    <br>
                     <article class="user-info">
                         <img src="src/profile-img.jpg" alt="">
                         <ul>
@@ -204,7 +232,9 @@
                 </article>
                 <article class="feedback-card">
                     <h3>Best Platform</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex numquam quaerat earum suscipit aspernatur, delectus dolorem recusandae odio eos eaque deserunt sapiente at facilis est iste. Error corrupti, nobis eum animi totam earum a ipsam tempora quos soluta eaque in sint, blanditiis ea provident voluptate reprehenderit eos eligendi sit rerum?</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odio soluta accusamus, quod ex optio quam, vel error quisquam consequuntur dolor in!</p>
+                    <br>
                     <article class="user-info">
                         <img src="src/profile-img.jpg" alt="">
                         <ul>
@@ -214,7 +244,10 @@
                     </article>
                 </article>
             </article>
-            <button class="teal-b">See More</button>
+            <article class="seeMore-btn">
+                <button class="teal-b">See More</button>
+            </article>
+            <br><br><br>
         </article>
     </section>
 
@@ -223,15 +256,16 @@
 
 
     <footer>
+        <br><br>
         <article>
             <article class="contact-info">
-                <ul id="layer-1">
+                <ul class="layer-1">
                     <li>
                         <ul class="layer-2">
                             <li><img src="/src/logo.png" alt=""></li>
                             <li>Follow on Social Service</li>
                             <li>
-                                <ul id="layer-3">
+                                <ul class="layer-3">
                                     <li><img src="/src/profile-img.jpg" alt=""></li>
                                     <li><img src="/src/profile-img.jpg" alt=""></li>
                                     <li><img src="/src/profile-img.jpg" alt=""></li>
@@ -241,7 +275,7 @@
                     </li>
                     <li>
                         <ul class="layer-2">
-                            <li><b>Links</b></li>
+                            <li><h4>Links</h4></li>
                             <li>Home</li>
                             <li>Help center</li>
                             <li>Service</li>
@@ -249,7 +283,7 @@
                     </li>
                     <li>
                         <ul class="layer-2">
-                            <li><b>Resource</b></li>
+                            <li><h4>Resource</h4></li>
                             <li>About Us</li>
                             <li>Carrier</li>
                             <li>Legal Notice</li>
@@ -257,15 +291,18 @@
                     </li>
                     <li>
                         <ul class="layer-2">
-                            <li><b>Contacts</b></li>
+                            <li><h4>Contacts</h4></li>
                             <li>192. New York</li>
                             <li>Support</li>
                             <li>+1125156363</li>
                         </ul>
                     </li>
                 </ul>
+                <br>
                 <hr>
+                <br>
                 <p>Copyright 2020&copy; all right</p>
+                <br><br>
             </article>
         </article>
     </footer>
